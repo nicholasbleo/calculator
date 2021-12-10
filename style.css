@@ -1,0 +1,128 @@
+* {
+    font-family: Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.calculator-container {
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: #303030;
+    width: 220px;
+    padding: 15px 10px 15px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #b5b5b5;
+    border-radius: 5px;
+}
+
+.buttons-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.buttons-row.clear {
+    justify-content: left;
+}
+
+#clear {
+    height: 20px;
+    width: 50px;
+    font-size: 8px;
+    margin-left: 4px;
+    background-color: #e89a33;
+    border-color: #824c05;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+#clear:hover {
+    background-color: #cc872b;
+}
+
+#clear:active {
+    background-color: #b37524;
+}
+
+.calc-name {
+    display: flex;
+    margin-left: auto;
+    margin-right: 5px;
+    align-items: center;
+    font-size: 10px;
+    font-style: italic;
+}
+
+.screen-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.screen {
+    display: flex;
+    width: 215px;
+    height: 50px;
+    background-color: #b2dbc7;
+    justify-content:  right;
+    align-items: center;
+    padding: 10px;
+    border-style: solid;
+    border-color: #303030;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+
+
+button {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #c9c9c9;
+}
+
+button:active {
+    background-color: #ababab;
+}
+
+button.op {
+    background-color: #dbb044;
+}
+
+button.op:hover {
+    background-color: #b59138;
+}
+
+button.op:active {
+    background-color: #96792f;
+}
+
+#equals {
+    background-color: #e89a33;
+}
+
+#equals:hover {
+    background-color: #cc872b;
+}
+
+#equals:active {
+    background-color: #b37524;
+}
