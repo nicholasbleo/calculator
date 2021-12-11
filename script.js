@@ -107,7 +107,7 @@ opButtons.forEach(button => {
             currentCalcs.push(e.target.id);
             console.log(currentCalcs);
 
-        } else if ('add subtract multiply divide'.includes(currentCalcs.at(-1))) {
+        } else if ('add subtract multiply divide'.includes(currentCalcs[currentCalcs.length-1])) {
 
             currentCalcs.pop();
             currentCalcs.push(e.target.id);

@@ -55,7 +55,7 @@ h1 {
 .calc-name {
     display: flex;
     margin-left: auto;
-    margin-right: 5px;
+    margin-right: 10px;
     align-items: center;
     font-size: 10px;
     font-style: italic;
@@ -73,7 +73,7 @@ h1 {
     width: 215px;
     height: 50px;
     background-color: #b2dbc7;
-    justify-content:  right;
+    justify-content:  flex-end;
     align-items: center;
     padding: 10px;
     border-style: solid;
@@ -94,6 +94,7 @@ button {
     border-width: 2px;
     border-radius: 5px;
     border-color: #636363;
+    background-color: #e0e0e0;
 }
 
 button:hover {
